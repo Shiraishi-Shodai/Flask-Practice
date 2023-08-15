@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>こんにちは</h1>
+    <form action="p-test" method="post">
+        名前:<input type="text" name="name">
+        <button type="submit">送信</button>
+    </form>
+
+    <a href="{{url_for('show_user_profile', username='john_due')}}">リンク</a>
+</body>
+</html>
